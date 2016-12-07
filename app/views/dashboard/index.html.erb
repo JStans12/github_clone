@@ -1,0 +1,5 @@
+<%= link_to "login", github_login %>
+
+<% if current_user %>
+  <%= current_user.username %>
+<% end %>
